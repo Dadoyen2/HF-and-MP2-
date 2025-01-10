@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Summary
 
 A C-based program to calculate the Møller-Plesset second-order perturbation theory (MP2) correlation energy and Hartree-Fock (HF) energy for a closed-shell molecular system can be found in this directory. The code reads integral data, including orbital energies and one- and two-electron integrals, from a TREXIO file and outputs the total HF and MP2 energies for a specific molecule.
@@ -39,3 +40,6 @@ Compile using the provided Makefile (e.g., make).
 Execute the resulting compute_energy program by passing in a valid TREXIO .h5 file containing the integrals and orbital energies (e.g., ./compute_energy data/h2o.h5).
 Data Requirements:
 The .h5 file should include one-electron integrals (core Hamiltonian), two-electron integrals in sparse format, nuclear repulsion energy, and orbital energies. These data structures must conform to the TREXIO format.
+=======
+# HF-and-MP2-
+>>>>>>> 2143981678f912e57b0dec288b8ff3b0295272d4
